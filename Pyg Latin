@@ -1,0 +1,7 @@
+pyg = 'ay'
+word = "Lisa"
+if word.isalpha():
+  word = word.lower()
+  first_letter = word[0]
+  word = word.split(first_letter)
+  print word[1]+first_letter+pyg
