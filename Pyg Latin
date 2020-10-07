@@ -1,7 +1,9 @@
 pyg = 'ay'
-word = "Lisa"
+word = input("Enter a word: ")
 if word.isalpha():
   word = word.lower()
   first_letter = word[0]
   word = word.split(first_letter)
   print word[1]+first_letter+pyg
+else:
+    print ("Not a valid word")
